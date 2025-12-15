@@ -1,0 +1,340 @@
+/* ==========================
+   :ROOT VARIABLES
+========================== */
+:root {
+    --bg-main: #1f2933;
+    --dial-background: #d0d1d4;
+    --points-4-color: #38bdf8;
+    --points-3-color: #fb923c;
+    --points-2-color: #fde047;
+
+    --text-primary: #e5e7eb;
+    --text-muted: #202225;
+
+    --marker-color: #bb1818;
+
+    --dial-size: 60vw;
+}
+
+/* ==========================
+   BODY STYLES
+========================== */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg-main);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    user-select: none;
+    overflow: hidden;
+}
+
+/* ==========================
+   TOP LABELS
+========================== */
+.topLabel-wrapper {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#points {
+    font-size: calc(1vw + 1rem);
+}
+
+/* ==========================
+   DIAL CONTAINER
+========================== */
+.dial-container {
+    position: absolute;
+    width: var(--dial-size);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    aspect-ratio: 1/1;
+}
+
+.dial-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.dial {
+    width: var(--dial-size);
+    height: var(--dial-size);
+    border-radius: 50%;
+    background: var(--dial-background);
+    transform-origin: center;
+    transform: rotate(0deg);
+    cursor: grabbing;
+    z-index: 1;
+    overflow:visible;
+}
+
+.hide {
+    position: absolute;
+    width: var(--dial-size);
+    height: var(--dial-size);
+    border-radius: 50%;
+    background:
+            linear-gradient(to bottom,
+                rgba(255, 255, 255, 0.03),
+                rgba(0, 0, 0, 0.05)),
+            repeating-conic-gradient(from -90deg,
+                #1e3a8a 0deg,
+                #1e3a8a 2deg,
+                #1f40b0 2deg,
+                /* slightly lighter than base */
+                #1f40b0 4deg);
+
+    clip-path: inset(50% 0 0 0);
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+    z-index: 5;
+
+    pointer-events: none;
+    overflow:visible;
+}
+
+/* ==========================
+   MARKER
+========================== */
+.marker {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 5px;
+    height: 90%;
+    border-radius: 25%;
+    background-color: var(--marker-color);
+    transform-origin: 50% 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+    cursor: grab;
+    z-index: 10;
+}
+
+.marker::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 3vw;
+    height: 3vw;
+    background-color: var(--marker-color);
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+
+/* ==========================
+   SEGMENTS & LABELS
+========================== */
+.segment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.label {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* ==========================
+   OPTIONS
+========================== */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 60vw;
+    height: 5vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: calc(2vw);
+    color: var(--text-primary);
+}
+
+#leftOption,
+#rightOption {
+    max-width: 15vw;
+}
+
+#rightOption {
+    text-align: right;
+}
+
+#question {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+/* ==========================
+   DIFFICULTY SLIDER
+========================== */
+.difficulty-container {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    user-select: none;
+    z-index: 15;
+}
+
+#difficultyLabel {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+#difficultyName {
+    font-size: 1rem;
+    color: var(--points-4-color);
+    /* use accent color for value */
+    font-weight: 700;
+}
+
+/* Slider styling */
+#difficultySlider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 180px;
+    height: 6px;
+    background: var(--dial-background);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
+#difficultySlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--points-4-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: grab;
+    border: 2px solid var(--text-primary);
+    transition: background 0.2s ease;
+}
+
+#difficultySlider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--points-4-color);
+    cursor: grab;
+    border: 2px solid var(--text-primary);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: background 0.2s ease;
+}
+
+/* Number input styling */
+#customDifficulty {
+    width: 60px;
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--dial-background);
+    text-align: center;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 0.2rem;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#newGame{
+    width:11vw;
+    height:4vw;
+    font-size:1.2vw;
+}
+
+/* Number input hover/focus */
+#customDifficulty:focus {
+    outline: none;
+    border: 1px solid var(--points-4-color);
+    box-shadow: 0 0 4px var(--points-4-color);
+}
+
+#customDifficulty::-webkit-inner-spin-button,
+#customDifficulty::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* ==========================
+   CUSTOM BUTTON
+========================== */
+.customButton {
+    background: linear-gradient(180deg, #22c55e, #16a34a);
+    border: none;
+    border-radius: 999px;
+    padding: 0.8em 1.8em;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #052e16;
+    cursor: pointer;
+    box-shadow:
+        0 8px 20px rgba(34, 197, 94, 0.4),
+        inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        background 0.15s ease;
+}
+
+.customButton:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow:
+        0 12px 28px rgba(34, 197, 94, 0.55),
+        inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.customButton:active:not(:disabled) {
+    transform: translateY(1px);
+    box-shadow:
+        0 4px 10px rgba(34, 197, 94, 0.3),
+        inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.customButton:disabled {
+    background: linear-gradient(180deg, #64748b, #475569);
+    color: #e2e8f0;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.7;
+}

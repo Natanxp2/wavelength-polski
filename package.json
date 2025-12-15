@@ -1,0 +1,19 @@
+{
+  "name": "wavelength",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.2.7"
+  },
+  "dependencies": {
+    "wrangler": "^4.54.0"
+  }
+}

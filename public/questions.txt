@@ -1,0 +1,256 @@
+Kiepskie:Dobre
+Lekko uzależniające:Mocno uzależniające
+Gorące:Zimne
+Normalne:Dziwne
+Bez koloru:Kolorowe
+Nisko kaloryczne:Wysoko Kaloryczne
+Źle się z tym czujesz:Dobrze się z tym czujesz
+Zbędne:Niezbędne
+Tanie:Drogie
+Niedoceniona broń:Przeceniona broń
+Rzadkie:Częste
+Nieseksowne emoji:Seskowne emoji
+Prosty przedmiot szkolny:Trudny przedmiot szkolny
+Nieznane:Sławne
+Trudne w użyciu:Proste w użyciu
+Zmęczony:Nabuzowany
+Brudne:Czyste
+Wymaga szczęścia:Wymaga umiejętności
+Bezsmakowe:Pełne smaku
+Nudny temat:Ciekawy temat
+Słaby aktor:Dobry aktor
+Zwykłe:Hipsterskie
+Niebezpieczna praca:Bezpieczna praca
+Fantasy:Sci-Fi
+Na co dzień:Wyjściowe
+Niedopłacane:Przepłacane
+Suche:Mokre
+Niedoceniona umiejętność:Przeceniona umiejętność
+Zakazane:Zalecane
+Smutna piosenka:Szczęśliwa piosenka
+Kruche:Wytrzymałe
+Pasjonat:Przychlast
+Dobro:Zło
+Najgorszy dzień roku:Najlepszy dzień roku
+Zły nawyk:Dobry nawyk
+Kociarz:Psiarz
+Ukryta przyjemność:Otwarcie kocham
+Beztalencie:Utalentowane
+Ciemne:Jasne
+Niedoceniony aktor:Przeceniony aktor
+Trudne do znalezienia:Łatwe do znalezienia
+Brzydki człowiek:Piękny człowiek
+Trudne do zapamiętania:Łatwe do zapamiętania
+Ignorant:Intelektualista
+Niezdrowe:Zdrowe
+Zły człowiek:Dobry człowiek
+Ważny dla historii:Nieważny dla historii
+Łysy:Kudłaty
+Nieelastyczny:Elastyczny
+Normalny zwierzak:Egzotyczny zwierzak
+Introwertyk:Ekstrawertyk
+Książka była lepsza:Film był lepszy
+Słaby film:Dobry film
+Brzydki:Piękny
+Dzieje się wolno:Dzieje się szybko
+Robota:Kariera
+Kochane:Znienawidzone
+Ciemna strona mocy:Jasna strona mocy
+Zły dodatek do pizzy:Dobry dodatek do pizzy
+Dystopia:Utopia
+Dojrzała osoba:Niedojrzała osoba
+Niedoceniona rzecz do posiadania:Przeceniona rzecz do posiadania
+Niemiła osoba:Miła osoba
+Film akcji:Film przygodowy
+Aktywny mentalnie:Aktywny fizycznie
+Niekontrowersyjny temat:Kontrowersyjny temat
+Potrzebuję:Chcę
+Suche jedzenie:Mokre jedzenie
+Normalna rzecz do posiadania:Dziwna rzecz do posiadania
+Proste:Zakrzywione
+Zła osoba:Dobra osoba
+Lata 80:Lata 90
+Etyczne do zjedzenia:Nieetyczne do zjedzenia
+Kino:Film
+Opcjonalne:Wymagane
+Niedoceniona litera alfabetu:Przeceniona litera alfabetu
+Zwyczajne:Niezwykłe
+Trudne w wymowie:Łatwe w wymowie
+Kiepskiej jakości:Wysokiej jakości
+Brzydkie zwierze:Urocze zwierze
+Zwyczajne:Wyszukane
+Ma złą reputacje:Ma dobrą reputację
+Kiepsko wykonane:Dobrze wykonane
+Nie kanapka:Kanapka
+Ciche miejsce:Głośne miejsce
+Komedia:Dramat
+Niebezpieczne:Bezpieczne
+Znaczące kulturowo:Nieznaczące kulturowo
+Do zastąpienia:Niezastąpione
+Najgorszy atleta wszczechczasów:Najlepszy atleta wszechczasów
+Wzór do naśladowania:Zły wzór
+Nie przydatne wykształcenie:Przydatne wykształcenie
+Pokojowe:Wojenne
+Niedoceniony film:Przeceniony film
+Szorstkie:Gładkie
+Złe dla ciebie:Dobre dla ciebie
+Okrągłe:Szpiczaste
+Dowód na to że Bóg istnieje:Dowód na to że Bóg nie istnieje
+Smutny film:Wesoły film
+Strata czasu:Dobrze spędzony czas
+Straszne zwierze:Przyjemne zwierze
+Mainstreamowe:Niszowe
+Krótkotrwałe:Długowieczne
+Nikt tego nie robi:Każdy to robi
+Śmierdzi:Pachnie
+Star wars:Star trek
+Przekąska:Danie
+Najmniej zła firma:Najbardziej zła firma
+Miękkie:Twarde
+Codzienna kuchnia:Wykwintna kuchnia
+Kwadratowe:Okrągłe
+Lepsze gorące:Lepsze zimne
+Głupie:Genialne
+Robione na zamówienie:Produkowane masowo
+Kiepska supermoc:Dobra supermoc
+Nieefektywne:Efektywne
+Niewiarygodne:Wiarygodne
+Tandetne:Z klasą
+Tymczasowe:Permanentne
+Wygląda jak osoba:Nie wygląda jak osoba
+Smakuje źle:Smakuje dobrze
+Sport:Gra
+Słabe:Cool
+Najgorsza żyjąca osoba:Najlepsza żyjąca osoba
+Niedocenione:Przecenione
+Żarcie:Jedzenie
+Nieetyczne:Etyczne
+Kiepski prezent:Fajny prezent
+Niemodne:Modne
+Walczący o wolność:Terrorysta
+Niewybaczalne:Wybaczalne
+Porażka:Arcydzieło
+Nieszkodliwe:Szkodliwe
+Gryffindor:Slytherin
+Niehigieniczne:Higieniczne
+Kiepska muzyka:Dobra muzyka
+Nieprzydatne:Przydatne
+Film który Godzilla by zepsuła:Film który Godzilla by poprawiła
+Nieważne:Ważne
+Łatwe do przeliterowania:Trudne do przeliterowania
+Wada:Zaleta
+Niedoceniony muzyk:Przeceniony muzyk
+Niepopularna czynność:Popularna czynność
+Podzielone:Całe
+Zawodne:Niezawodne
+Łatwe do zabicia:Trudne do zabicia
+Niestabilne:Stabilne
+Okrągłe zwierze:Szpiczaste zwierze
+Kiepski serial:Dobry serial
+Męskie:Kobiece
+Bezużyteczna część ciała:Przydatna część ciała
+Chwilowa moda:Klasyk
+Słabe:Silne
+Ochydne płatki:Pyszne płatki
+Bezużyteczny wynalazek:Przydatny wynalazek
+Liberalne:Konserwatywne
+Niepopularne:Popularne
+Wróg:Przyjaciel
+Nudne:Ekscytujące
+Źle pachnące:Dobrze pachnące
+Czarny charakter:Bohater
+Niedoceniona czynność:Przeceniona czynność
+Zbędne w razie wypadku:Przydatne w razie wypadku
+Dla dzieci:Dla dorosłych
+Mądry:Inteligentny
+Łatwe do zrobienia:Trudne do zrobienia
+Bezwartościowe:Bezcenne
+Geny:Wychowanie
+Dyktatura:Demokracja
+Normalne przywitanie:Dziwne przywitanie
+Imię psa:Imię kota
+Bezpartyjny:Partyjny
+Policzalne:Nieskończone
+Zwykłe wydarzenie:Wydarzenie formalne
+Zła inwestycja:Dobra inwestycja
+Gadka szmatka:Ciężki temat
+Łagodne:Ostre
+Religijny:Świętokradczy
+Nie sztuka:Sztuka
+Nielegalny:Zakazany
+Dla każdego:Dla elit
+Poza kontrolą:Kontrolowane
+Ciche:Głośne
+Nieseksowny pokemon:Seksowny pokemon
+Tajemnica:Wiedza powszechna
+Za małe:Za duże
+Krótkie:Długie
+Najgorszy rok wszechczasów:Najlepszy rok wszechczasów
+Socjalistyczne:Kapitalistyczne
+Mało znany fakt:Fakt znany powszechnie
+Stacjonarne:Przenośne
+Lokalny problem:Globalny problem
+Talent:Umiejętność
+Najgorsza era do podróży w czasie:Najlepsza era do podróży w czasie
+Najgorszy:Najlepszy
+Mały numer:Duży numer
+Fałsz:Prawda
+Staromodne:Awangardowe
+Brzydkie słowo:Piękne słowo
+Mały:Malusieński
+Nienaturalne:Naturalne
+Osoba godna zaufania:Fałzszywa osoba
+Podróbka:Oryginał
+Etykieta:Maniery
+Nieseksowny kolor:Seksowny kolor
+Korzystne dla ciebie:Korzystne dla każdego
+Bezsilny:Potężny
+Nie pali:Pali
+Owoc:Warzywo
+Nauka:Pseudonauka
+Zabawny temat:Poważny temat
+Miękkie:Sztywne
+Ukryta przyjemność:Poprostu słabe
+Plotka:Fakt
+Ciężko na tym usiąść:Łatwo na tym usiąść
+Za mało:Za dużo
+Poziome:Pionowe
+Bezwonne:Pachnące
+Przytulaśne:Odpychające
+Różnorakie:Jednorodne
+Dostępny dla każdego:Ekskluzywny
+Zła rasa psa:Dobra rasa psa
+Sztuka:Biznes
+Artysta jednego przeboju:Ikona popu
+Zła rada:Dobra rada
+Tick:Tock
+Zły cukierek:Dobry cukierek
+Tradycyjne:Radykalne
+Złe uczucie w buzi:Dobre uczucie w buzi
+Nielegalne:Legalne
+Głęboka myśl:Płytka myśl
+Kiepska szkoła:Dobra szkołą
+Spóźnialski:Zawsze na czas
+Nie dożyje 100:Dożyje 100
+Zła postać Disneya:Dobra postać Disneya
+Podobne:Identyczne
+Zły prezydent:Dobry prezydent
+Dziwny:Obcy
+Sławny:Niesławny
+Najsłabszy bóg:Najsilniejszy bóg
+Nudna osoba:Zabawna osoba
+Niedoceniona książka:Przeceniona książka
+Mądrość powszechna:Skrajne poglądy
+Najgorszy obowiązek:Najlepszy obowiązek
+Zagrożony gatunek:Dominujący gatunek
+Niebieskie:Zielone
+Przyprawiające o dreszczyk:Przerażające
+Nerd:Mięśniak
+Spodziewane:Niespodziewane
+Osoba którą mógłbyś pobić:Osoba która by cie pobiła
+Nieuzasadnina fobia:Uzasadniona fobia
+Niedoceniona gra:Przeceniona gra
+Mało czasu na toalecie:Dużo czasu na toalecie
+Dziwne powitanie:Normale powitanie
+Niezapominalne:Szybko zapomniane
+
